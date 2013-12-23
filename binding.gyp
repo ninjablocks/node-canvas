@@ -10,7 +10,7 @@
       }
     }, { # 'OS!="win"'
       'variables': {
-        'with_jpeg%': '<!(./util/has_lib.sh jpeg)',
+        'with_jpeg%': 'false',
         'with_gif%': '<!(./util/has_lib.sh gif)',
         # disable pango as it causes issues with freetype.
         'with_pango%': 'false',
